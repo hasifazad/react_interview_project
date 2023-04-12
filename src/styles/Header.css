@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    background-color: #EAE9E4;
+}
+
+.header_one {
+    display: flex;
+}
+
+.header_two {
+    display: flex;
+}
+
+.header_one>p {
+    margin: 0 2rem;
+}
+
+.header_two>p {
+    margin: 0 2rem;
+}

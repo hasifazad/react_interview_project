@@ -1,0 +1,46 @@
+.home-sec-one {
+    background-image: url('../images/imgone.png');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home_one {
+    color: white;
+    width: 50%;
+}
+
+.home_one>h2 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home_one>p {
+    margin: 1rem 0;
+}
+
+.home_one>button {
+    color: black;
+    background-color: rgb(189, 171, 148);
+    padding: 8px 20px;
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.home_sec_two {
+    background-image: url('../images/imgtwo.png');
+    background-size: cover;
+    height: 600px;
+}
+
+.home_sec_two>div {
+    width: 35%;
+    color: rgb(137, 137, 137);
+    font-size: x-large;
+    margin-top: 7rem;
+    margin-left: 7rem;
+}

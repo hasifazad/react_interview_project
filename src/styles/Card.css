@@ -1,0 +1,29 @@
+.card {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: fit-content;
+}
+
+.card_one {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_two {
+    color: black;
+    width: 175px;
+}
+
+.card_two>p {
+    word-wrap: break-word;
+}
+
+.card_two>h2 {
+    color: rgb(227, 192, 150);
+}
+
+.card_three {
+    display: flex;
+    justify-content: space-between;
+}
