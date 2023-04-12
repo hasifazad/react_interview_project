@@ -10,15 +10,14 @@ function App() {
 
   let [user, setuser] = useState()
 
+
+  
   useEffect(() => {
     let token = {
       Phone: 7449001874,
       otp: 6513
     }
-    axios.post('https://admin.gifinfinity.com/accounts/api/client/v1/user-otp-login', {
-      phone: "7449001874",
-      otp: "6513"
-    }, {
+    axios.options('https://admin.gifinfinity.com/accounts/api/client/v1/user-otp-login', token, {
       headers: {
         'Content-Type': 'application/json'
       }

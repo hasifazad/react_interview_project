@@ -7,8 +7,10 @@ function ItemSection() {
 
     let [product, setProduct] = useState([])
 
+
+    // this requestis not working properly**
     useEffect(() => {
-        axios.get('https://admin.gifinfinity.com/products/api/client/v1/products-list/')
+        axios.post('https://admin.gifinfinity.com/products/api/client/v1/products-list/')
             .then((res) => {
                 console.log(res);
             }).catch((err) => {
